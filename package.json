@@ -1,0 +1,26 @@
+{
+  "name": "create-array",
+  "version": "0.0.0",
+  "license": "ISC",
+  "description": "Easier array creation",
+  "keywords": [
+    "array",
+    "create",
+    "creation",
+    "generate",
+    "generation"
+  ],
+  "files": [
+    "index.js"
+  ],
+  "devDependencies": {
+    "browserify": "^6.3.3",
+    "chai": "^1.10.0",
+    "mocha": "^2.0.1",
+    "uglify-js": "^2.4.15"
+  },
+  "scripts": {
+    "browserify": "mkdir -p dist && browserify -s createArray index.js | uglifyjs -c > dist/create-array.js",
+    "test": "mocha index.spec.js"
+  }
+}
