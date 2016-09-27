@@ -14,7 +14,7 @@
     "index.js"
   ],
   "devDependencies": {
-    "browserify": "^6.3.3",
+    "browserify": "^13.1.0",
     "chai": "^1.10.0",
     "mocha": "^3.1.0",
     "uglify-js": "^2.4.15"
