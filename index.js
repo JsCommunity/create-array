@@ -9,6 +9,10 @@ var isFunction = (function (toString) {
   }
 })(Object.prototype.toString)
 
+function identity (value) {
+  return value
+}
+
 function wrapValue (value) {
   return function wrappedValue () {
     return value
@@ -21,7 +25,9 @@ module.exports = function createArray (n, generator) {
   var i, ar
   ar = new Array(n)
 
-  if (!isFunction(generator)) {
+  if (generator === undefined) {
+    generator = identity
+  } if (!isFunction(generator)) {
     generator = wrapValue(generator)
   }
 
