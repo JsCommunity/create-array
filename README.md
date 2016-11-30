@@ -1,6 +1,4 @@
-# create-array
-
-[![Build Status](https://img.shields.io/travis/JsCommunity/create-array/master.svg)](http://travis-ci.org/JsCommunity/create-array)
+# create-array [![Build Status](https://img.shields.io/travis/JsCommunity/create-array/master.svg)](http://travis-ci.org/JsCommunity/create-array)
 
 > Create an array from a given size and a generator
 
