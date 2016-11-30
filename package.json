@@ -2,7 +2,7 @@
   "name": "create-array",
   "version": "1.0.0",
   "license": "ISC",
-  "description": "Easier array creation",
+  "description": "create an array from a given size and a generator",
   "keywords": [
     "array",
     "create",
@@ -10,6 +10,17 @@
     "generate",
     "generation"
   ],
+  "homepage": "https://github.com/JsCommunity/create-array",
+  "bugs": "https://github.com/JsCommunity/create-array/issues",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JsCommunity/create-array.git"
+  },
+  "author": {
+    "name": "Julien Fontanet",
+    "email": "julien.fontanet@isonoe.net"
+  },
+
   "files": [
     "index.js"
   ],

@@ -1,8 +1,8 @@
 # create-array
 
-[![Build Status](https://img.shields.io/travis/julien-f/js-create-array/master.svg)](http://travis-ci.org/julien-f/js-create-array)
+[![Build Status](https://img.shields.io/travis/JsCommunity/create-array/master.svg)](http://travis-ci.org/JsCommunity/create-array)
 
-> Easier array creation
+> Create an array from a given size and a generator
 
 ## Features
 
@@ -31,7 +31,7 @@ Clone the git repository and compile the browser version of the
 library:
 
 ```
-> git clone https://github.com/julien-f/js-create-array.git
+> git clone https://github.com/JsCommunity/create-array.git
 > npm install
 > npm run browserify
 ```
@@ -66,7 +66,7 @@ the code.
 
 You may:
 
-- report any [issue](https://github.com/julien-f/js-create-array/issues)
+- report any [issue](https://github.com/JsCommunity/create-array/issues)
   you've encountered;
 - fork and create a pull request.
 
