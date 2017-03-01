@@ -9,7 +9,7 @@
 
 ## Installation
 
-### Node
+### Node & [Browserify](http://browserify.org/)/[Webpack](https://webpack.js.org/)
 
 Installation of the [npm package](https://npmjs.org/package/create-array):
 
@@ -25,20 +25,10 @@ var createArray = require('create-array');
 
 ### Browser
 
-Clone the git repository and compile the browser version of the
-library:
-
-```
-> git clone https://github.com/JsCommunity/create-array.git
-> npm install
-> npm run browserify
-```
-
-Then import the script `create-array.js` which has been compiled in
-the `dist/` directory:
+You can directly use the build provided at [unpkg.com](https://unpkg.com):
 
 ```html
-<script src="dist/create-array.js"></script>
+<script src="https://unpkg.com/create-array@1/dist/create-array.js"></script>
 ```
 
 ## Usage
