@@ -25,15 +25,15 @@
   ],
   "devDependencies": {
     "browserify": "^14.1.0",
-    "chai": "^3.5.0",
-    "mocha": "^3.1.0",
+    "jest": "^19.0.2",
     "standard": "^9.0.0",
     "uglify-js": "^2.4.15"
   },
   "scripts": {
     "browserify": "mkdir -p dist && browserify -s createArray index.js | uglifyjs -c > dist/create-array.js",
+    "dev-test": "jest --watch",
     "lint": "standard",
     "posttest": "npm run lint",
-    "test": "mocha index.spec.js"
+    "test": "jest"
   }
 }
