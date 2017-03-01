@@ -2,13 +2,6 @@
 
 // ===================================================================
 
-var isFunction = (function (toString) {
-  var tag = toString.call(toString)
-  return function isFunction (val) {
-    return toString.call(val) === tag
-  }
-})(Object.prototype.toString)
-
 function identity (value) {
   return value
 }
@@ -27,7 +20,7 @@ module.exports = function createArray (n, generator) {
 
   if (generator === undefined) {
     generator = identity
-  } if (!isFunction(generator)) {
+  } if (typeof generator !== 'function') {
     generator = wrapValue(generator)
   }
 
