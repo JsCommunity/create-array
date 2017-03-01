@@ -25,12 +25,14 @@
   ],
   "devDependencies": {
     "browserify": "^14.1.0",
+    "husky": "^0.13.1",
     "jest": "^19.0.2",
     "standard": "^9.0.0",
     "uglify-js": "^2.4.15"
   },
   "scripts": {
     "browserify": "mkdir -p dist && browserify -s createArray index.js | uglifyjs -c > dist/create-array.js",
+    "commitmsg": "yarn test",
     "dev-test": "jest --watch",
     "lint": "standard",
     "posttest": "npm run lint",
