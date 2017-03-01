@@ -20,7 +20,6 @@
     "name": "Julien Fontanet",
     "email": "julien.fontanet@isonoe.net"
   },
-
   "files": [
     "index.js"
   ],
@@ -28,7 +27,7 @@
     "browserify": "^14.1.0",
     "chai": "^3.5.0",
     "mocha": "^3.1.0",
-    "standard": "^8.2.0",
+    "standard": "^9.0.0",
     "uglify-js": "^2.4.15"
   },
   "scripts": {
