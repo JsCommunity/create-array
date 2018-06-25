@@ -35,9 +35,8 @@
   "scripts": {
     "commitmsg": "npm run test",
     "dev-test": "jest --watch",
-    "lint": "standard",
-    "posttest": "npm run lint",
     "prepublish": "mkdir -p dist && browserify -s createArray index.js | uglifyjs -c > dist/create-array.js",
+    "pretest": "standard",
     "test": "jest"
   }
 }
