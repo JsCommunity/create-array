@@ -20,7 +20,7 @@ module.exports = function createArray (n, generator) {
 
   if (generator === undefined) {
     generator = identity
-  } if (typeof generator !== 'function') {
+  } else if (typeof generator !== 'function') {
     generator = wrapValue(generator)
   }
 
