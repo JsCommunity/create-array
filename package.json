@@ -25,11 +25,12 @@
     "index.js"
   ],
   "devDependencies": {
-    "browserify": "^14.1.0",
-    "husky": "^0.13.1",
-    "jest": "^19.0.2",
-    "standard": "^9.0.0",
-    "uglify-js": "^2.4.15"
+    "benchmark": "^2.1.4",
+    "browserify": "^16.2.2",
+    "husky": "^0.14.3",
+    "jest": "^23.1.0",
+    "standard": "^11.0.1",
+    "uglify-js": "^3.4.1"
   },
   "scripts": {
     "commitmsg": "yarn test",
