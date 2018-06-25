@@ -33,7 +33,7 @@
     "uglify-js": "^3.4.1"
   },
   "scripts": {
-    "commitmsg": "yarn test",
+    "commitmsg": "npm run test",
     "dev-test": "jest --watch",
     "lint": "standard",
     "posttest": "npm run lint",
