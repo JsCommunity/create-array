@@ -27,16 +27,20 @@
   "devDependencies": {
     "benchmark": "^2.1.4",
     "browserify": "^16.2.2",
-    "husky": "^0.14.3",
+    "husky": "^1.1.3",
     "jest": "^23.1.0",
-    "standard": "^11.0.1",
+    "standard": "^12.0.1",
     "uglify-js": "^3.4.1"
   },
   "scripts": {
-    "commitmsg": "npm run test",
     "dev-test": "jest --watch",
     "prepublish": "mkdir -p dist && browserify -s createArray index.js | uglifyjs -c > dist/create-array.js",
     "pretest": "standard",
     "test": "jest"
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "npm run test"
+    }
   }
 }
